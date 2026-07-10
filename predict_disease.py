@@ -118,6 +118,3 @@ if __name__ == "__main__":
     print("\n===============================\n")
 
 
-print(df["Department"].unique())
-print(df["Advice"].unique())
-print(df["Prevention"].unique())
