@@ -245,7 +245,7 @@ def home_page():
     with col2:
 
         st.image(
-            "Medbot3.png",      # Your image name
+            "Medbot3.png",   
             width=950
         )
     
@@ -611,7 +611,7 @@ Please enter your symptoms below to get started.
 
     if st.button(
         "💬 Analyze Symptoms",
-        use_container_width=True
+         width='stretch'
     ):
 
         message = translated_input.strip().lower()
