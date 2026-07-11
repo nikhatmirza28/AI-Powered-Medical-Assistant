@@ -313,6 +313,8 @@ healthcare guidance.
         st.info("""
 🐍 Python
 
+📊  Numpy
+
 📊 Pandas
 
 🤖 Scikit-Learn
@@ -322,6 +324,8 @@ healthcare guidance.
 
         st.info("""
 🌐 Streamlit
+
+🤖Deep Translator
 
 📈 Plotly
 
