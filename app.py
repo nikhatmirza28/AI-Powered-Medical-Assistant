@@ -313,9 +313,9 @@ healthcare guidance.
         st.info("""
 🐍 Python
 
-📊  Numpy
+🔢 NumPy
 
-📊 Pandas
+🐼 Pandas
 
 🤖 Scikit-Learn
 """)
@@ -323,9 +323,9 @@ healthcare guidance.
     with t2:
 
         st.info("""
-🌐 Streamlit
+🎈  Streamlit
 
-🤖Deep Translator
+🌐 Deep Translator
 
 📈 Plotly
 
