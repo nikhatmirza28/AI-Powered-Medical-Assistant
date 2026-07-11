@@ -358,9 +358,11 @@ def disease_prediction_page():
         placeholder="Example: fever, headache, cough"
     )
 
-    if st.button("🔍 Predict Disease", use_container_width=True):
+    if st.button("🔍 Predict Disease", width='stretch'):
 
         if symptoms.strip() == "":
+            if selected_language == "English 🇬🇧":
+                st.warning("Please enter at least 4 symptoms for accurate prediction.")
 
             st.warning("Please enter at least one symptom.")
 
@@ -372,7 +374,13 @@ def disease_prediction_page():
                 if s.strip()
             ]
 
-            result = predict_disease(symptom_list)
+            if len(symptom_list) < 4:
+                if selected_language == "English 🇬🇧":
+                    st.warning("Please enter at least 4 symptoms for accurate prediction.")
+                else:
+                    st.warning("कृपया सटीक भविष्यवाणी के लिए कम से कम 4 लक्षण दर्ज करें।") 
+            else:       
+              result = predict_disease(symptom_list)
 
             st.divider()
 
@@ -575,13 +583,13 @@ Please enter your symptoms below to get started.
 
     if selected_language == "English 🇬🇧":
      user_input = st.text_input(
-        "📝 Enter your valid symptoms",
-        placeholder="Example: fever, cough, headache"
+       "📝 Please Enter at least 3-4 symptoms",
+        placeholder="Example: fever, cough, headache,nausea"
     )
     else:
      user_input = st.text_input(
-        "📝 अपने लक्षण दर्ज करें",
-        placeholder="उदाहरण: बुखार, खांसी, सिरदर्द"
+       "📝 कृपया कम से कम 3-4 लक्षण दर्ज करें",
+        placeholder="उदाहरण: बुखार, खांसी, सिरदर्द,मतली"
     )
 
     # ==========================================
