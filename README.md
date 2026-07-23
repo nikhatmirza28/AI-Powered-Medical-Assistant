@@ -48,6 +48,13 @@ Run the application:
 streamlit run app.py
 ```
 
+
+Github link: https://github.com/nikhatmirza28/AI-Powered-Medical-Assistant-Disease-Prediction
+
+
+Streamlit App: https://ai-powered-medical-assistant.streamlit.app
+
+
 ---
 
 ## ⚠️ Medical Disclaimer
