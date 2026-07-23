@@ -245,8 +245,8 @@ def home_page():
     with col2:
 
         st.image(
-            "Medbot3.png",   
-            width=950
+            "Medbot3.png", use_container_width=True   
+            
         )
     
     st.markdown("---")
