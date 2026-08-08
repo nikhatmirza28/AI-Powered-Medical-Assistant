@@ -9,13 +9,11 @@ from sklearn.metrics import accuracy_score, classification_report
 import pickle
 
 
-
 #Step 1: Generating the dataset for Disease Information
 
 # =====================================================
 # AI-Powered Medical Assistant
 # Professional Dataset Generator
-# PART 1
 # =====================================================
 
 import pandas as pd
@@ -779,7 +777,6 @@ print(df["Disease"].value_counts())
 #Disease Distribution
 plt.figure(figsize=(12,7))
 sns.countplot(y="Disease", data=df, order=df["Disease"].value_counts().index)
-#This code creates a bar chart that shows the number of patients for each disease, arranged from the most common disease to the least common disease.
 plt.title("Disease Distribution")
 plt.show()
 
@@ -843,8 +840,6 @@ for _, row in df.iterrows():
 print("Sample Symptoms:")
 print(symptom_list[:3])
 
-#This code converts each disease record into a list of symptoms, so the Machine Learning model can process them later.
-
 #Convert Symptoms to Numerical Features
 mlb = MultiLabelBinarizer()
 
@@ -877,8 +872,6 @@ model = RandomForestClassifier(
 model.fit(X_train, y_train)
 
 print("Model Training Completed!")
-#This code converts symptoms and diseases into numbers, splits the dataset into training and testing sets,
-#  trains the Random Forest model, and prepares it to predict diseases for new users.
 
 # ==========================================
 # Cross Validation
