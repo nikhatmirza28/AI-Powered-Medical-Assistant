@@ -1,4 +1,4 @@
-# 🏥 AI-Powered Medical Assistant for Disease Prediction and Healthcare Analytics
+# 🏥 AI-Powered Bilingual Medical Assistant for Disease Prediction & Healthcare Analytics
 
 ## 📌 Overview
 
@@ -70,10 +70,8 @@ Always consult a qualified healthcare professional.
 ## 👨‍💻 Developer
 
 **Nikhat Khan**
-
-M.Tech (Digital Electronics & Communication Systems)
-
 Aspiring AI & Data Science Engineer
+MCA(AI/ML)(Purcuing)
 
 ---
 
