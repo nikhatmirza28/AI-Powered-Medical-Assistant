@@ -72,6 +72,7 @@ Always consult a qualified healthcare professional.
 **Nikhat Khan**
 Aspiring AI & Data Science Engineer
 MCA(AI/ML)(Purcuing)
+MTech(DE&CS)
 
 ---
 
