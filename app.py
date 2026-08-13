@@ -1,10 +1,7 @@
 # ==========================================
-# AI-Based Disease Prediction System
+# AI-Powered Disease Prediction System
 # with Medical Chatbot and Healthcare Analytics
 # ==========================================
-
-from unittest import result
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
