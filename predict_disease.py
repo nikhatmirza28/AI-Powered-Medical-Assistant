@@ -95,26 +95,6 @@ def predict_disease(user_symptoms):
     return result
 
 
-# ==========================================
-# Test
-# ==========================================
 
-if __name__ == "__main__":
-
-    symptoms = [
-        "fever",
-        "headache",
-        "fatigue",
-        "body pain"
-    ]
-
-    result = predict_disease(symptoms)
-
-    print("\n========== Prediction ==========\n")
-
-    for key, value in result.items():
-        print(f"{key:<12}: {value}")
-
-    print("\n===============================\n")
 
 
